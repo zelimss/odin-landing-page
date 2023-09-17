@@ -32,26 +32,33 @@
     text-decoration: none;
 }
 
-.top_content {
+.main_content {
     background-color: #1F2937;
     display: flex;
 }
 
-.top_header {
+.left_content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top_header {
+    flex: 1;
+    color: white;
 }
 
 .top_text {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex: 1;
+    color: white;
 }
 
 .placeholder {
-
+    flex: 1;
+    padding: 75px;
+    color: white;
 }
 
 .signup_button {
-
+    
 }
