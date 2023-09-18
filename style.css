@@ -172,3 +172,47 @@ html, body {
     padding-right: 50px;
     margin-top: -20px;
 }
+
+.fourth-part {
+    margin: 100px;
+    background-color: #3882F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 175px;
+    padding-right: 175px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 15px;
+}
+
+.cta-header {
+    font-weight: bold;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+}
+
+.cta-body {
+    margin-right: 75px;
+}
+
+.cta-button button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 16px;
+}
